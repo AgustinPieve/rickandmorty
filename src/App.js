@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react'
+import './App.css'
+//import styles from './components/Card/Card.module.css'
+import Cards from './components/Cards.jsx'
+import Nav from './components/Nav/Nav.jsx'
 
-function App() {
+
+function App () {
+  const [characters, setCharacter] = ([useState])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App' style={{ padding: '25px' }}>
+        <div>
+         <Nav/>
+        </div>
+      <div>
+        <Cards
+          characters={characters}
+        />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

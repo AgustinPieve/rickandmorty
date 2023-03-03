@@ -1,0 +1,42 @@
+.divCard{
+    border-width: 5px;
+    border-style: solid;
+    padding: 3px 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: antiquewhite double;
+    margin: 20px 500px 0px 500px;
+}
+
+.cardName{
+    color: rgb(215, 170, 88);
+    border-width: 5px;
+    border-style: solid;
+    padding: 3px 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: antiquewhite double;
+    /* margin: 20px 500px 0px 500px; */
+}
+
+.cardSpecies{
+    color: #d0b178;
+    border-width: 5px;
+    border-style: solid;
+    padding: 3px 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: antiquewhite double;
+    /* margin: 20px 500px 0px 500px; */
+}
+
+.cardGender{
+    color: #d2bc93;
+    border-width: 5px;
+    border-style: solid;
+    padding: 3px 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: antiquewhite double;
+    /* margin: 20px 500px 20px 500px; */
+}
